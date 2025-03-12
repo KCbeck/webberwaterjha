@@ -18,10 +18,11 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start; /* Align items to the left */
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-left: 2rem; /* Add padding to the left */
 }
 
 .App-link {
@@ -35,4 +36,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header-title {
+  color: #FFD700; /* Yellow color similar to Ferrovial logo */
+  font-family: 'Arial', sans-serif; /* Use a similar font */
+  font-weight: bold;
+  font-size: 3rem; /* Adjust size as needed */
+  text-align: left; /* Align text to the left */
 }
